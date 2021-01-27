@@ -2,7 +2,8 @@
     var list = document.querySelectorAll(".card h2");
     var i=0;
     while (i < list.length) {
-      list[i].addEventListener("click", function () {
+      
+      list  [i].addEventListener("click", function () {
         var panel = this.nextElementSibling;
         if (panel.style.display === "block") {
           panel.style.display = "none";
