@@ -51,7 +51,7 @@ header{
  }
 
 .one-half  {  
-    margin-top: 91px;
+    margin-top: 112px;
 }
 
 .one-half h4{
@@ -60,7 +60,7 @@ header{
 }
 
 .one-half p{
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 
@@ -111,16 +111,17 @@ ul{
 @media screen and (min-width: 840px) {
     .one-half button{
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 0;
+        right: 0px;
     }
 
-    .one-half{
+    .one-half div{
+        width: 500px;
         position: relative;
     }
 
     .one-half div{
-        width: 460px;
+        width: 600px;
     }
 
     .card ul{
@@ -128,11 +129,13 @@ ul{
     }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 900px) {
     .container{
         padding: 20px;
         width: 100%;
     }
+
+    
 
 
     .one-half button{
@@ -145,27 +148,10 @@ ul{
     }
 }
 
-@media screen and (max-width: 760px) {
-    .container{
-        padding: 20px;
-        width: 100%;
-    }
-
-
-    .one-half button{
-        display: block;
-        margin: 40px auto 30px;
-    }
-
-    .pre p {
-       font-size: 14px;
-    }
-}
 
 @media screen and (max-width: 360px) {
     .one-half h4{
         font-size: 1.3em;
-       /* margin-top: 120px;*/
     }
 
     header h4{
