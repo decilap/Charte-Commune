@@ -1,5 +1,25 @@
 (function(){
-    
+    var array = [
+        'Farima Doumbia',
+        'Adil Rmili',
+        'Alexis Van Neyenhoff',
+        'Alicia Derradji',
+        'Asad Tahir',
+        'Bamba gaye',
+        'Caroline F',
+        'Charles Chrismann',
+        'Dasilve David',
+        'Decilap Denis',
+        'DOUCARA Lafferrière',
+        'Elesse',
+        'Flora Lafferrière',
+        'Gaëlle COUE',
+        'Jules Grand',
+        'Le Pollotec Jonathan',
+        'Mohamed Abdeloifi',
+        'Abdoulaye',
+        'Adoulaye'
+      ];
     var list = document.querySelectorAll(".card h2");
     var i=0;
     while (i < list.length) {
