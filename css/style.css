@@ -63,6 +63,12 @@ header{
     font-size: 1.3em;
 }
 
+
+.one-half a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .card{
     background-color: #fff;
     padding: 20px;
@@ -95,7 +101,7 @@ ul{
 
 
 .random{
-    margin: 30px auto 100px;
+    margin: 30px auto 60px;
     width: 200px;
     text-align: center;
 }
