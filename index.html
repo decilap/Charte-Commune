@@ -130,12 +130,51 @@
     </div>
   </main>
   <script>
+    var array = [
+      'Farima Doumbia',
+      'Adil Rmili',
+      'Alexis Van Neyenhoff',
+      'Alicia Derradji',
+      'Asad Tahir',
+      'Bamba gaye',
+      'Caroline F',
+      'Charles Chrismann',
+      'Dasilve David',
+      'Decilap Denis',
+      'DOUCARA Lafferrière',
+      'Elesse',
+      'Flora Lafferrière',
+      'Gaëlle COUE',
+      'Jules Grand',
+      'Le Pollotec Jonathan',
+      'Mohamed Abdeloifi',
+      'Abdoulaye',
+      'Adoulaye'
+    ];
+    var acc = document.querySelectorAll(".card h2");
+    var i;
 
-    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  
+
+    document.querySelector('.random button').onclick=function(e){
+      var index = Math.floor(Math.random() * 19);
+      e.target.nextElementSibling.textContent = array[index];
+    }
   </script>
   <!-- Fin du document (fermeture des balises)
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="js/main.js"></script>
 </body>
 
 </html>

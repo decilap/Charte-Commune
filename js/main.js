@@ -1,4 +1,5 @@
 (function(){
+    
     var list = document.querySelectorAll(".card h2");
     var i=0;
     while (i < list.length) {
