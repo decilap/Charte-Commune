@@ -1,0 +1,169 @@
+
+body{
+    background-color: #f2f2f2;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header{
+    background-color: #fff;
+    min-height: 70px;
+    box-shadow: 0 3px 8px #ddd;
+    position: absolute;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    top:0;
+}
+
+
+.pre code {
+    display: block;
+    text-align: left;
+    white-space: pre-wrap;
+    position: relative;
+    word-break: break-all;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pre code {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+.pre p {
+    font-weight: 500;
+}
+
+
+.one-half button{
+    margin-bottom: 20px;
+ }
+ 
+ 
+ section{
+     margin-bottom:20px;
+ }
+
+.one-half  {  
+    margin-top: 91px;
+}
+
+.one-half h4{
+   margin: 20px 0 15px 0;
+   font-weight: 500!important;
+}
+
+.one-half p{
+    font-size: 1.3em;
+}
+
+.card{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.card ul{
+    margin-top: 20px;
+    display: none;
+}
+
+.card h2{
+    font-size: 28px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.card h2 span{
+    font-size: 18px!important;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+ul{
+    list-style-image: url('../images/bullet.png');
+}
+
+
+
+.random{
+    margin: 0 auto;
+    width: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 840px) {
+    .one-half button{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .one-half{
+        position: relative;
+    }
+
+    .one-half div{
+        width: 460px;
+    }
+
+    .card ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+        padding: 20px;
+        width: 100%;
+    }
+
+
+    .one-half button{
+        display: block;
+        margin: 40px auto 30px;
+    }
+
+    .pre p {
+       font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container{
+        padding: 20px;
+        width: 100%;
+    }
+
+
+    .one-half button{
+        display: block;
+        margin: 40px auto 30px;
+    }
+
+    .pre p {
+       font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .one-half h4{
+        font-size: 1.3em;
+       /* margin-top: 120px;*/
+    }
+
+    header h4{
+        font-size: 1.5em;
+    }
+}
