@@ -52,6 +52,8 @@ header{
 
 .one-half  {  
     margin-top: 112px;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 .one-half h4{
@@ -129,18 +131,16 @@ ul{
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .container{
         padding: 20px;
         width: 100%;
     }
 
-    
-
 
     .one-half button{
         display: block;
-        margin: 40px auto 30px;
+        margin: 0 auto 30px;
     }
 
     .pre p {
