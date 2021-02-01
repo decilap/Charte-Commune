@@ -22,7 +22,6 @@
     'Adoulaye'
     ];
   
-
     //carrousel
     function carrousel(elem){
       var list = document.querySelectorAll(elem);
